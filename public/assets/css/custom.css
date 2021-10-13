@@ -1,0 +1,115 @@
+:root {
+  --dark: #1b262c;
+  --darken: #12191d;
+  --light: #a7cade;
+}
+
+body {
+  background-color: var(--dark);
+  color: var(--light);
+}
+
+/* main navbar styles */
+
+#mainNavbar{
+  background-color: inherit;
+  z-index:10
+}
+#mainNavbar a {
+  color: var(--light);
+}
+#mainNavbar .navbar-toggler-icon {
+  position: relative;
+  display: inline-block;
+  width: 30px;
+  height: 3.5px;
+  background-color: var(--light);
+  vertical-align: middle;
+  content: '';
+  border-radius: 3px;
+}
+#mainNavbar .navbar-toggler-icon::after {
+  display: inline-block;
+  content: '';
+  width: 25px;
+  height: 3.5px;
+  border-radius: 3px;
+  position: absolute;
+  right: 0;
+  top: -12px;
+  background-color: var(--light);
+}
+#mainNavbar .navbar-toggler-icon::before {
+  display: inline-block;
+  content: '';
+  width: 20px;
+  height: 3.5px;
+  border-radius: 3px;
+  position: absolute;
+  right: 0;
+  bottom: -12px;
+  background-color: var(--light);
+}
+
+#mainNavbar .navbar-toggler-icon.active {
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 3.5px;
+    background-color: var(--light);
+    vertical-align: middle;
+    content: '';
+    border-radius: 3px;
+  }
+  #mainNavbar .navbar-toggler-icon.active::after {
+    display: inline-block;
+    content: '';
+    width: 25px;
+    height: 3.5px;
+    border-radius: 3px;
+    position: absolute;
+    right: 0;
+    top: -12px;
+    background-color: var(--light);
+  }
+  #mainNavbar .navbar-toggler-icon.active::before {
+    display:none;
+  }
+
+#mainNavbar .navbar-toggler-button:focus {
+  outline: none;
+}
+#mainNavbar .navbar-toggler-button {
+    transition: .2s;
+}
+#mainNavbar .navbar-toggler-button:hover {
+  background-color: var(--darken);
+  padding: 1rem;
+}
+.navbar-list-menu{
+    position: absolute;
+    background-color: var(--darken);
+    top: 0;
+    right: 1px;
+    height: 100vh;
+    width: 100%;
+    background: #050607af;
+}
+.navbar-list-menu ul li a{
+    color: var(--light)
+}
+.navbar-list-menu ul{
+    margin-left: auto;
+    margin-right: auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    text-align: center;
+}
+.navbar-list-menu.inactive{
+    display: none;
+}
+.navbar-list-menu.active{
+    display: block;
+}

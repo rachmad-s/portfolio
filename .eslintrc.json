@@ -22,6 +22,9 @@
         "react/react-in-jsx-scope": "off",
         "import/no-named-as-default": 0,
         "import/no-named-as-default-member": 0,
+        "implicit-arrow-linebreak": 0,
+        "no-confusing-arrow": 0,
+        "function-paren-newline": 0,
         "comma-dangle": ["error", {
             "arrays": "never",
             "objects": "never",
