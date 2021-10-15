@@ -7,7 +7,7 @@ export default function AppLayout() {
   return (
     <>
       <Navbar />
-      <main className="container">
+      <main>
         <AppRoutes />
       </main>
     </>

@@ -5,9 +5,15 @@ export default function Navbar() {
   const [listMenuStatus, setListMenuStatus] = useState('inactive');
 
   const handleNavToggle = () => {
-    setListMenuStatus((value) =>
-      value === 'inactive' ? 'active' : 'inactive'
+    const currentStatus = listMenuStatus;
+    setListMenuStatus(() =>
+      currentStatus === 'inactive' ? 'animating' : 'animating reverse'
     );
+    setTimeout(() => {
+      setListMenuStatus(() =>
+        currentStatus === 'inactive' ? 'active' : 'inactive'
+      );
+    }, 500);
   };
   return (
     <>
