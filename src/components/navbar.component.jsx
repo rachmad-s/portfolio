@@ -40,6 +40,21 @@ export default function Navbar() {
               <span className="sr-only">(current)</span>
             </a>
           </li>
+          <li className="nav-item">
+            <a className="nav-link" href="/home">
+              My Work
+            </a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="/home">
+              My Clients
+            </a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="/home">
+              Articles
+            </a>
+          </li>
         </ul>
       </div>
     </>
