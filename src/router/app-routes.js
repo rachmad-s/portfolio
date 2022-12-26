@@ -1,9 +1,9 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
-import Article from '../pages/article';
-import Home from '../pages/home';
-import NotFound404 from '../pages/404';
+import Article from './../pages/article';
+import Home from './../pages/home';
+import NotFound404 from './../pages/404';
 
 export default function AppRoutes() {
   return (
@@ -20,7 +20,7 @@ export default function AppRoutes() {
 
       {/* 404 Not Found */}
       <Route path="*">
-        <NotFound404 />
+        <Home />
       </Route>
     </Switch>
   );
