@@ -11,6 +11,7 @@
 body {
   background-color: var(--dark);
   color: var(--light);
+  overflow-x: hidden;
 }
 
 .font-playfair-display {
@@ -112,7 +113,7 @@ body {
   color: var(--light);
   font-size: 2rem;
 }
-.navbar-list-menu ul li:not(.active) .nav-link{
+.navbar-list-menu ul li:not(.active) .nav-link {
   color: var(--light);
   opacity: 0.4;
   font-size: 2rem;
@@ -211,7 +212,7 @@ body {
 
 .main-header-text {
   position: relative;
-  z-index: 10;
+  z-index: -1;
 }
 
 .main-header-pict {
@@ -229,20 +230,20 @@ body {
 
 .main-header-title {
   width: 50%;
-  font-size: 96px;
+  font-size: 160px;
   font-weight: 700;
   position: relative;
   color: #3f5059;
   margin-bottom: 3rem;
 }
 .main-header-title::after {
-  content: "Rachmad Syaefullah";
+  content: 'Rachmad Syaefullah';
   position: absolute;
   left: -5px;
   top: -5px;
   color: var(--light);
   width: 100%;
-  font-size: 96px;
+  font-size: 160px;
   font-weight: 700;
 }
 
@@ -262,8 +263,178 @@ body {
   filter: drop-shadow(4px 4px 0px #3f5059);
 }
 
-#myWork{
-  height: 100vh;
-  padding:80px 0;
-  background-color: var(--dark);
+#myWork {
+  padding: 80px 0;
+  background-color: #151f23;
+}
+
+.shape-2 {
+  transform: rotate(180deg);
+}
+
+.shape-2 svg path {
+  fill: #151f23 !important;
+}
+
+#aboutMe {
+  padding-bottom: 180px;
+}
+
+#myWork .item {
+  display: flex;
+  padding-top: 5rem;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  padding-right: 80px;
+  padding-left: 80px;
+  padding-bottom: 180px;
+}
+
+#myWork .item.left {
+  flex-direction: row-reverse;
+}
+
+#myWork .item.left .item-description {
+  flex-direction: row-reverse;
+}
+
+#myWork .item.left .company-logo {
+  flex-direction: row-reverse;
+}
+
+#myWork .company-logo {
+  height: 100px;
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#myWork .company-logo .pulse {
+  width: 15px;
+  height: 15px;
+  background-color: #a1bcf1;
+  box-shadow: 0px 0px 0px 6px #a1bcf14f;
+  border-radius: 50%;
+}
+
+#myWork .item-description {
+  display: flex;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+#myWork .item-description img {
+  width: 540px;
+}
+
+#myWork .item-description-body {
+  width: 400px;
+}
+
+#myWork .item-description-body > ul > li {
+  margin-bottom: 1rem;
+}
+
+#myWork .item-description h2 {
+  margin-bottom: 3rem;
+}
+
+#myWork .item-description-footer {
+  margin-top: 3rem;
+}
+
+#myWork .item-description-footer ul {
+  display: flex;
+  padding-left: 1rem;
+  gap: 1rem;
+}
+
+#myWork .item-description-footer li {
+  list-style: none;
+  font-weight: 400;
+}
+
+#myWork .item-description-footer li strong {
+  display: block;
+}
+
+.container-fluid {
+  padding-right: 60px;
+  padding-left: 60px;
+}
+
+.rect {
+  position: absolute;
+  right: -50px;
+  top: 0;
+  transform: rotateZ(7deg);
+  animation: rotate 3s infinite;
+}
+
+.rect-2 {
+  transform: rotateZ(2deg);
+  animation: rotate2 3s infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotateZ(7deg);
+  }
+  50% {
+    transform: rotateZ(6deg);
+  }
+  100% {
+    transform: rotateZ(7deg);
+  }
+}
+
+@keyframes rotate2 {
+  0% {
+    transform: rotateZ(2deg);
+  }
+  50% {
+    transform: rotateZ(3deg);
+  }
+  100% {
+    transform: rotateZ(2deg);
+  }
+}
+
+#myWork .item.left .rect {
+  right: auto;
+  left: -50px;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  animation: rotate11 3s infinite;
+}
+
+#myWork .item.left .rect-2 {
+  transform: scaleX(-1) rotateZ(2deg);
+  animation: rotate12 3s infinite;
+}
+@keyframes rotate11 {
+  0% {
+    transform: scaleX(-1) rotateZ(7deg);
+  }
+  50% {
+    transform: scaleX(-1) rotateZ(6deg);
+  }
+  100% {
+    transform: scaleX(-1) rotateZ(7deg);
+  }
+}
+
+@keyframes rotate12 {
+  0% {
+    transform: scaleX(-1) rotateZ(2deg);
+  }
+  50% {
+    transform: scaleX(-1) rotateZ(3deg);
+  }
+  100% {
+    transform: scaleX(-1) rotateZ(2deg);
+  }
 }

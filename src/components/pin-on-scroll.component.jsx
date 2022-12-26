@@ -31,6 +31,7 @@ export default function PinOnScroll(props) {
       setStyle({
         position: 'fixed',
         top: '0px',
+        zIndex: 11,
         bottom: '0px',
         width: '100%'
       });
