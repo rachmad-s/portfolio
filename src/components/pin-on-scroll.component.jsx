@@ -1,4 +1,3 @@
-// eslint-disable-next-line object-curly-newline
 import React, { useState, useEffect, useRef } from 'react';
 
 export const PinOnScrollContext = React.createContext(null);

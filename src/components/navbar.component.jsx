@@ -19,7 +19,7 @@ export default function Navbar() {
     <>
       <nav className="navbar container" id="mainNavbar">
         <a className="navbar-brand" href="/">
-          <img src="/assets/images/logo.svg" alt="Logo R Space" width="60" />
+          <img src="./assets/images/logo.svg" alt="Logo R Space" width="60" />
         </a>
         <button
           className="navbar-toggler-button navbar-toggler"

@@ -17,6 +17,7 @@
     "react/react-in-jsx-scope": "off",
     "react/forbid-prop-types": "off",
     "react/prop-types": "off",
+    "import/no-useless-path-segments":0,
     "react/destructuring-assignment": "off",
     "import/no-named-as-default": 0,
     "prefer-const": 0,

@@ -1,7 +1,7 @@
 import React from 'react';
-import logoVoffice from '../assets/logo-light-voffice.svg';
-import mockUpVoffice from '../assets/voffice-mockup.png';
-import rect from '../assets/rect.svg';
+import logoVoffice from './../assets/logo-light-voffice.svg';
+import mockUpVoffice from './../assets/voffice-mockup.png';
+import rect from './../assets/rect.svg';
 
 export default function MyWork() {
   // console.log(Context);
