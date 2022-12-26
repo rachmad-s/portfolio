@@ -3,7 +3,6 @@ import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import Article from './../pages/article';
 import Home from './../pages/home';
-import NotFound404 from './../pages/404';
 
 export default function AppRoutes() {
   return (
