@@ -284,11 +284,8 @@ body {
   display: flex;
   padding-top: 5rem;
   align-items: center;
-  justify-content: space-between;
   position: relative;
-  padding-right: 80px;
-  padding-left: 80px;
-  padding-bottom: 180px;
+  gap: 3rem;
 }
 
 #myWork .item.left {
@@ -320,6 +317,10 @@ body {
 }
 
 #myWork .item-description {
+  background-color: #10181B;
+  padding: 2rem 3rem;
+  border-radius: 1rem;
+  flex: 1;
   display: flex;
   align-items: center;
   position: relative;
@@ -331,15 +332,34 @@ body {
 }
 
 #myWork .item-description-body {
-  width: 400px;
+  width: 100%;
+}
+
+#myWork .item .item-sub {
+  opacity: .6;
+  font-style: italic;
+  margin-bottom: 2.5rem;
+  font-weight: 200;
 }
 
 #myWork .item-description-body > ul > li {
-  margin-bottom: 1rem;
+  margin-bottom: .5rem;
+  font-weight: 200;
+  opacity: .6
 }
 
-#myWork .item-description h2 {
-  margin-bottom: 3rem;
+#myWork .item-description-body > ul {
+  padding-left: 1rem;
+}
+
+#myWork .item-description a h2 {
+  color: var(--light);
+  margin-bottom: .5rem;
+}
+
+#myWork .item-description a:hover {
+  text-decoration: none;
+  cursor: pointer;
 }
 
 #myWork .item-description-footer {
@@ -348,17 +368,21 @@ body {
 
 #myWork .item-description-footer ul {
   display: flex;
-  padding-left: 1rem;
+  padding-left: 0;
+  justify-content: space-between;
   gap: 1rem;
 }
 
 #myWork .item-description-footer li {
   list-style: none;
-  font-weight: 400;
+  font-weight: 200;
+  width: 40%;
+  opacity: .6;
 }
 
 #myWork .item-description-footer li strong {
   display: block;
+  font-weight: 600;
 }
 
 .container-fluid {

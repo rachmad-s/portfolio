@@ -1,6 +1,7 @@
 import React from 'react';
 
 export default function AboutMe() {
+  const yearExperience = new Date().getFullYear() - 2019;
   return (
     <section id="aboutMe" style={{ position: 'relative' }}>
       <div className="container">
@@ -10,16 +11,20 @@ export default function AboutMe() {
         >
           <h1 className="section-title text-right col-sm-3">About Me</h1>
           <p className="col-sm-7 mb-0">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor
-            officia magnam voluptates delectus ut eveniet soluta unde fuga
-            deleniti cum voluptatibus odio optio obcaecati magni rem
-            repudiandae, ipsum voluptatum quo?
+            I am a highly motivated and result-oriented individual with a
+            passion for Software Engineering. With
+            {` ${yearExperience}`}
+            + years of experience in Software Engineering including Front-end,
+            Back-End, UI Design, and SEO. I have developed a strong skillset in
+            various programming languages such as Python, Javascript, PHP,
+            and Swift.
+            <br />
+            I am a fast learner, adaptable to change, and thrive in fast-paced
+            environments.
             <br />
             <br />
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor
-            officia magnam voluptates delectus ut eveniet soluta unde fuga
-            deleniti cum voluptatibus odio optio obcaecati magni rem
-            repudiandae, ipsum voluptatum quo?
+            Overall, I am a driven and dedicated professional who is committed
+            to achieving success both for myself and my team.
           </p>
         </div>
       </div>
