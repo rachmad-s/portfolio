@@ -1,22 +1,26 @@
 {
   "files": {
-    "main.js": "./static/js/main.4722d86c.chunk.js",
-    "main.js.map": "./static/js/main.4722d86c.chunk.js.map",
+    "main.js": "./static/js/main.07fe7461.chunk.js",
+    "main.js.map": "./static/js/main.07fe7461.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.0d852354.js",
     "runtime-main.js.map": "./static/js/runtime-main.0d852354.js.map",
-    "static/js/2.d9b493b2.chunk.js": "./static/js/2.d9b493b2.chunk.js",
-    "static/js/2.d9b493b2.chunk.js.map": "./static/js/2.d9b493b2.chunk.js.map",
+    "static/js/2.87de042d.chunk.js": "./static/js/2.87de042d.chunk.js",
+    "static/js/2.87de042d.chunk.js.map": "./static/js/2.87de042d.chunk.js.map",
     "static/js/3.61cf43f3.chunk.js": "./static/js/3.61cf43f3.chunk.js",
     "static/js/3.61cf43f3.chunk.js.map": "./static/js/3.61cf43f3.chunk.js.map",
     "index.html": "./index.html",
-    "static/js/2.d9b493b2.chunk.js.LICENSE.txt": "./static/js/2.d9b493b2.chunk.js.LICENSE.txt",
+    "static/js/2.87de042d.chunk.js.LICENSE.txt": "./static/js/2.87de042d.chunk.js.LICENSE.txt",
+    "static/media/css.18c9ce72.png": "./static/media/css.18c9ce72.png",
+    "static/media/javascript-2.c14e2e97.png": "./static/media/javascript-2.c14e2e97.png",
     "static/media/logo-light-voffice.c3214fae.svg": "./static/media/logo-light-voffice.c3214fae.svg",
     "static/media/logo-moladin.516b9f63.svg": "./static/media/logo-moladin.516b9f63.svg",
-    "static/media/maybank-logo.7c8d1432.svg": "./static/media/maybank-logo.7c8d1432.svg"
+    "static/media/maybank-logo.7c8d1432.svg": "./static/media/maybank-logo.7c8d1432.svg",
+    "static/media/python.62e930c7.png": "./static/media/python.62e930c7.png",
+    "static/media/react.681834e6.png": "./static/media/react.681834e6.png"
   },
   "entrypoints": [
     "static/js/runtime-main.0d852354.js",
-    "static/js/2.d9b493b2.chunk.js",
-    "static/js/main.4722d86c.chunk.js"
+    "static/js/2.87de042d.chunk.js",
+    "static/js/main.07fe7461.chunk.js"
   ]
 }

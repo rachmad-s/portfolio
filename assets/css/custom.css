@@ -403,6 +403,25 @@ body {
   animation: rotate2 3s infinite;
 }
 
+.certification-item {
+  margin-bottom: 2rem;
+}
+
+.certification-item span{
+  font-size: 14px;
+  display: block;
+}
+
+.certification-item a{
+  border-radius: 20px;
+  padding: 0.45rem 2rem;
+  font-size: 14px;
+}
+
+.certification-item a:hover{
+  cursor: pointer;
+}
+
 @keyframes rotate {
   0% {
     transform: rotateZ(7deg);
