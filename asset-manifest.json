@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.js": "./static/js/main.7a22d482.chunk.js",
-    "main.js.map": "./static/js/main.7a22d482.chunk.js.map",
-    "runtime-main.js": "./static/js/runtime-main.c0574b05.js",
-    "runtime-main.js.map": "./static/js/runtime-main.c0574b05.js.map",
-    "static/js/2.38e5b366.chunk.js": "./static/js/2.38e5b366.chunk.js",
-    "static/js/2.38e5b366.chunk.js.map": "./static/js/2.38e5b366.chunk.js.map",
-    "static/js/3.a9e4f123.chunk.js": "./static/js/3.a9e4f123.chunk.js",
-    "static/js/3.a9e4f123.chunk.js.map": "./static/js/3.a9e4f123.chunk.js.map",
+    "main.js": "./static/js/main.4722d86c.chunk.js",
+    "main.js.map": "./static/js/main.4722d86c.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.0d852354.js",
+    "runtime-main.js.map": "./static/js/runtime-main.0d852354.js.map",
+    "static/js/2.d9b493b2.chunk.js": "./static/js/2.d9b493b2.chunk.js",
+    "static/js/2.d9b493b2.chunk.js.map": "./static/js/2.d9b493b2.chunk.js.map",
+    "static/js/3.61cf43f3.chunk.js": "./static/js/3.61cf43f3.chunk.js",
+    "static/js/3.61cf43f3.chunk.js.map": "./static/js/3.61cf43f3.chunk.js.map",
     "index.html": "./index.html",
-    "static/js/2.38e5b366.chunk.js.LICENSE.txt": "./static/js/2.38e5b366.chunk.js.LICENSE.txt",
+    "static/js/2.d9b493b2.chunk.js.LICENSE.txt": "./static/js/2.d9b493b2.chunk.js.LICENSE.txt",
     "static/media/logo-light-voffice.c3214fae.svg": "./static/media/logo-light-voffice.c3214fae.svg",
-    "static/media/rect.d7ad339a.svg": "./static/media/rect.d7ad339a.svg",
-    "static/media/voffice-mockup.a2b4119c.png": "./static/media/voffice-mockup.a2b4119c.png"
+    "static/media/logo-moladin.516b9f63.svg": "./static/media/logo-moladin.516b9f63.svg",
+    "static/media/maybank-logo.7c8d1432.svg": "./static/media/maybank-logo.7c8d1432.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.c0574b05.js",
-    "static/js/2.38e5b366.chunk.js",
-    "static/js/main.7a22d482.chunk.js"
+    "static/js/runtime-main.0d852354.js",
+    "static/js/2.d9b493b2.chunk.js",
+    "static/js/main.4722d86c.chunk.js"
   ]
 }
