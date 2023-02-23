@@ -22,11 +22,11 @@ export default function AboutMe() {
             I have developed a strong skillset in various programming languages
             such as <strong>Javascript, Python, PHP, and Swift. &nbsp;</strong>
             <br />
-            But not only limited to above skills, I would very excited if I need
+            But not only limited to above skills, I would very excited if you need me
             to explore & learn new skills in future projects.
             <br />
             <br />
-            My working-style? &nbsp;Sure! I am a type of guy that very excited
+            My working-style? &nbsp;Sure! I am a kind of person that very excited
             about learn & explore new things. I am a quick learner, adaptable,
             result-oriented, objective, and highly interested in designing
             something
