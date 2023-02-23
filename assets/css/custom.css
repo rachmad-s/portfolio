@@ -209,7 +209,10 @@ html {
 
 #contact .contact-card .btn {
   border-radius: 50%;
-  padding-top: 8px;
+  padding-top: 10px;
+  padding-left: 13px;
+  padding-right: 13px;
+  font-size: 24px;
 }
 
 #contact h5 {
@@ -605,6 +608,7 @@ html {
   border-radius: 20px;
   padding: 0.45rem 2rem;
   font-size: 14px;
+  margin-top: .8rem;
 }
 
 .certification-item a:hover {
@@ -642,4 +646,51 @@ html {
 
 .mb-7 {
   margin-bottom: 6.5rem;
+}
+
+@media only screen and (max-width: 568px) {
+  .main-header-title {
+    font-size: 80px;
+  }
+  .main-header-title::after {
+    font-size: 80px;
+  }
+  #aboutMe .section-title {
+    margin-bottom: 2rem;
+  }
+  .section-title {
+    font-size: 3.5rem;
+  }
+  #certification img {
+    max-width: 100px;
+  }
+  .item-container-outer {
+    padding: 1rem;
+  }
+  *{
+    overscroll-behavior: unset;
+  }
+  #myWork .item-description {
+    padding: 1rem 1.5rem;
+  }
+  #myWork .item-description-footer ul {
+    display: block;
+  }
+  #myWork .item-description-footer li {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  #myWork .item{
+    padding-top: 3rem;
+  }
+  .item-container{
+    overflow-x: scroll;
+  }
+  .project-layout {
+    column-width: 10em;
+  }
+  .certification-item a {
+    padding: .25rem 2rem;
+    margin-top: .8rem;
+  }
 }
