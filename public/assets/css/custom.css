@@ -687,7 +687,7 @@ html {
     overflow-x: scroll;
   }
   .project-layout {
-    column-width: 10em;
+    column-width: 9em;
   }
   .certification-item a {
     padding: .25rem 2rem;
