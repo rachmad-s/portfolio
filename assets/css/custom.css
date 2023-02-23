@@ -667,7 +667,7 @@ html {
     font-size: 14px;
   }
   #myWork .scroll-container {
-    padding: 1rem;
+    padding: 1rem 0;
   }
   .item-description h2 {
     font-size: 1.75rem;
@@ -678,9 +678,7 @@ html {
 }
 @media only screen and (max-width: 568px) {
   .main-header {
-    background-position: right;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+    background-position: left center;
   }
   .main-header-title {
     font-size: 80px;
@@ -702,8 +700,7 @@ html {
     max-width: 100px;
   }
   .item-container-outer {
-    padding: 1rem;
-    padding-right: 0;
+    padding: 0;
   }
   * {
     overscroll-behavior: unset;
@@ -723,8 +720,9 @@ html {
     padding-right: 1rem;
   }
   .item-container {
-    overflow-x: scroll;
-  }
+      overflow-x: scroll;
+      padding: 1rem;
+    }
   .project-layout {
     column-width: 9em;
     overflow: visible;
