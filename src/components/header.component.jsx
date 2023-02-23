@@ -4,10 +4,8 @@ function MainHeaderContent({ textStyle }) {
   return (
     <div className="container">
       <div className="main-header-content">
-        {/* <div className="main-header-pict" style={{ ...pictStyle }}>
-          <img src="/assets/images/profile.png" alt="My Profile" />
-        </div> */}
         <div className="main-header-text" style={{ ...textStyle }}>
+          {/* <p>A Glimpse of</p> */}
           <h1 className="main-header-title font-playfair-display">
             Rachmad Syaefullah
           </h1>

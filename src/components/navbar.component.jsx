@@ -42,17 +42,27 @@ export default function Navbar() {
           </li>
           <li className="nav-item">
             <a className="nav-link" href="/home">
-              My Work
+              About me
             </a>
           </li>
           <li className="nav-item">
             <a className="nav-link" href="/home">
-              My Clients
+              My Experience
             </a>
           </li>
           <li className="nav-item">
             <a className="nav-link" href="/home">
-              Articles
+              Projects
+            </a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="/home">
+              Certifications
+            </a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="/home">
+              Contact
             </a>
           </li>
         </ul>

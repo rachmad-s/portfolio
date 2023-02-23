@@ -46,9 +46,9 @@ export default function Certification() {
     }
   ];
   return (
-    <section id="myWork">
+    <section id="certification">
+      <h1 className="section-title text-center mb-7">Certifications</h1>
       <div className="container">
-        <h1 className="section-title text-center mb-5">Certifications</h1>
         <div className="row">
           {certificates.map((certificate) => (
             <div className="col-6 certification-item" key={certificate.name}>
@@ -69,13 +69,13 @@ export default function Certification() {
                       ${certificate.from}`}
                     </strong>
                   </div>
-                  <span className="font-weight-light">
+                  <span className="font-weight-light opacity-light">
                     {certificate.description}
                   </span>
                   <br />
                   <a href={certificate.link} className="btn btn-primary">
-                    Visit
-                    <FiExternalLink size={14} />
+                    Visit&nbsp;
+                    <FiExternalLink size={14} className="fi-icon ml-1" />
                   </a>
                 </div>
               </div>

@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-one-expression-per-line */
 import React from 'react';
 
 export default function AboutMe() {
@@ -10,21 +11,25 @@ export default function AboutMe() {
           style={{ gap: '2rem' }}
         >
           <h1 className="section-title text-right col-sm-3">About Me</h1>
-          <p className="col-sm-7 mb-0">
-            I am a highly motivated and result-oriented individual with a
-            passion for Software Engineering. With
-            {` ${yearExperience}`}
-            + years of experience in Software Engineering including Front-end,
-            Back-End, UI Design, and SEO. I have developed a strong skillset in
-            various programming languages such as Python, Javascript, PHP,
-            and Swift.
+          <p className="col-sm-7 mb-0 font-weight-light">
+            I am a Software Engineer with
+            {` ${yearExperience}`}+ years of experience in several fields
+            including
+            <strong>
+              &nbsp; Front-end dev, Back-End dev, UI Design, and Mobile App Dev.
+              &nbsp;
+            </strong>
+            I have developed a strong skillset in various programming languages
+            such as <strong>Javascript, Python, PHP, and Swift. &nbsp;</strong>
             <br />
-            I am a fast learner, adaptable to change, and thrive in fast-paced
-            environments.
+            But not only limited to above skills, I would very excited if I need
+            to explore & learn new skills in future projects.
             <br />
             <br />
-            Overall, I am a driven and dedicated professional who is committed
-            to achieving success both for myself and my team.
+            My working-style? &nbsp;Sure! I am a type of guy that very excited
+            about learn & explore new things. I am a quick learner, adaptable,
+            result-oriented, objective, and highly interested in designing
+            something
           </p>
         </div>
       </div>

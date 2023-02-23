@@ -4,6 +4,8 @@ import Header from './../../components/header.component';
 import MyWork from './../../components/my-work.component';
 import Navbar from './../../components/navbar.component';
 import Certification from '../../components/certification.component';
+import Projects from '../../components/projects.component';
+import Contact from '../../components/contact.component';
 
 export default function Home() {
   return (
@@ -12,14 +14,9 @@ export default function Home() {
       <Header />
       <AboutMe />
       <MyWork />
+      <Projects />
       <Certification />
-
-      <h1>&nbsp;</h1>
-      <h1>&nbsp;</h1>
-      <p style={{ textAlign: 'center' }}>
-        More sections are still in progress... ;)
-      </p>
-      <h1>&nbsp;</h1>
+      <Contact />
     </>
   );
 }
