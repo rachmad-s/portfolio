@@ -649,9 +649,9 @@ html {
 }
 @media screen and (max-width: 769px) {
   .main-header-overlay {
-    background-color: linear-gradient(
+    background: linear-gradient(
       0deg,
-      rgba(21, 30, 35, 0.3) 0%,
+      rgba(21, 30, 35, 0.8) 0%,
       rgba(21, 30, 35, 0.1) 80%
     );
   }
@@ -693,6 +693,10 @@ html {
   }
   .section-title {
     font-size: 3.5rem;
+    background: transparent;
+  }
+  .mb-7 {
+    margin-bottom: 5rem;
   }
   #certification img {
     max-width: 100px;
