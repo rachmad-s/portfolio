@@ -53,7 +53,6 @@ const careers = [
     ],
     dailyTasks: [
       "Take responsibilities to create and maintain company or sister's company websites from UI Design, Web Development, Testing and Deployment",
-      'Involve in Engineering Team to create and develop new feautures for CRM Apps',
       'Participate in meetings with Stakeholders to present work progress and websites traffic or discussion about new feature'
     ]
   },
@@ -68,8 +67,7 @@ const careers = [
     techStacks: ['ReactJs', 'jQuery', 'Bootstrap', 'Python'],
     dailyTasks: [
       'Participate in IT Team projects: Revamp The Enterprise Software for all Maybank Branches in Indonesia',
-      'Do research about tech-stacks that will be used in Software Development. Several Technologies that used are Micro-frontend Framework, Redux, Socket.io, and many more',
-      'Perform daily tasks from Products Brainstorming, UI Design, Code Review, Unit Testing, and Deployment'
+      'Do research about tech-stacks that will be used in Software Development. Several Technologies that used are Micro-frontend Framework, Redux, Socket.io, and many more'
     ]
   },
   {
@@ -83,8 +81,7 @@ const careers = [
     techStacks: ['ReactJs', 'NodeJs', 'PostgreSQL', 'single-spa framework'],
     dailyTasks: [
       'Work on developing new features for the CRM and B2C Web in Moladin',
-      'Participate in Agile Methodology activities such as daily stand-ups and other team meetings to discuss progress, roadblocks, and priorities. Collaborate with team members to identify and solve any issues that arise.',
-      'Improve App Performance and Troubleshoot issues: Address any bugs or issues that arise during the development process, create RFCs document, and solve the following problems'
+      'Participate in Agile Methodology activities such as daily stand-ups and other team meetings to discuss progress, roadblocks, and priorities. Collaborate with team members to identify and solve any issues that arise.'
     ]
   }
 ];

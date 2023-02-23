@@ -648,6 +648,13 @@ html {
   margin-bottom: 6.5rem;
 }
 @media screen and (max-width: 769px) {
+  .main-header-overlay {
+    background-color: linear-gradient(
+      0deg,
+      rgba(21, 30, 35, 0.3) 0%,
+      rgba(21, 30, 35, 0.1) 80%
+    );
+  }
   .item-container-outer {
     padding: 2rem;
     padding-right: 6rem;
@@ -661,6 +668,12 @@ html {
   }
   #myWork .scroll-container {
     padding: 1rem;
+  }
+  .item-description h2 {
+    font-size: 1.75rem;
+  }
+  .item-description svg {
+    width: 20px;
   }
 }
 @media only screen and (max-width: 568px) {
