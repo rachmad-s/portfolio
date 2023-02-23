@@ -93,11 +93,13 @@ export default function MyWork() {
   const sectionRef = useRef(null);
 
   useEffect(() => {
-    sectionRef.current.style.minHeight = `${
-      sectionRef.current.offsetTop + 2000
-    }px`;
+    if (window.innerWidth > 568) {
+      sectionRef.current.style.minHeight = `${
+        sectionRef.current.offsetTop + 2000
+      }px`;
+      window.addEventListener('scroll', (e) => onScroll(e, sectionRef));
+    }
 
-    window.addEventListener('scroll', (e) => onScroll(e, sectionRef));
     return () =>
       window.removeEventListener('scroll', (e) => onScroll(e, sectionRef));
   }, [sectionRef]);

@@ -51,9 +51,9 @@ export default function Certification() {
       <div className="container">
         <div className="row">
           {certificates.map((certificate) => (
-            <div className="col-6 certification-item" key={certificate.name}>
+            <div className="col-sm-6 certification-item" key={certificate.name}>
               <div
-                className="d-flex align-items-center"
+                className="d-flex align-items-sm-center align-items-start"
                 style={{ gap: '16px' }}
               >
                 <img
@@ -72,7 +72,6 @@ export default function Certification() {
                   <span className="font-weight-light opacity-light">
                     {certificate.description}
                   </span>
-                  <br />
                   <a href={certificate.link} className="btn btn-primary">
                     Visit&nbsp;
                     <FiExternalLink size={14} className="fi-icon ml-1" />

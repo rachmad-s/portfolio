@@ -1,7 +1,6 @@
 /* eslint-disable jsx-a11y/alt-text */
 import { useRef, useEffect } from 'react';
-import { BsWhatsapp, BsInstagram } from 'react-icons/bs';
-import { CiLinkedin } from 'react-icons/ci';
+import { BsLinkedin, BsWhatsapp, BsInstagram } from 'react-icons/bs';
 import rect from './../assets/rect.svg';
 import profile from './../assets/profile.png';
 
@@ -39,7 +38,7 @@ export default function Contact() {
               href="https://linkedin.com/in/rachmad-syaefullah"
               className="btn btn-light"
             >
-              <CiLinkedin />
+              <BsLinkedin />
             </a>
             <a href="https://instagram.com/rahmad.sf" className="btn btn-light">
               <BsInstagram />

@@ -7,7 +7,7 @@ export default function AboutMe() {
     <section id="aboutMe" style={{ position: 'relative' }}>
       <div className="container">
         <div
-          className="d-flex align-items-center justify-content-center"
+          className="d-md-flex align-items-center justify-content-center"
           style={{ gap: '2rem' }}
         >
           <h1 className="section-title text-right col-sm-3">About Me</h1>
