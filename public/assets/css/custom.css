@@ -727,6 +727,7 @@ html {
   }
   .project-layout {
     column-width: 9em;
+    overflow: visible;
   }
   .certification-item a {
     padding: 0.25rem 2rem;
