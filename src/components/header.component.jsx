@@ -30,8 +30,10 @@ export default function Header() {
     const onScroll = (e) => {
       setScrollTop(() => e.target.documentElement.scrollTop);
     };
-    setTranslateObject(() => Math.min(0, scrollTop / 3 - 60));
-    window.addEventListener('scroll', onScroll);
+    if (window.innerWidth > 568) {
+      setTranslateObject(() => Math.min(0, scrollTop / 3 - 60));
+      window.addEventListener('scroll', onScroll);
+    }
 
     return () => window.removeEventListener('scroll', onScroll);
   }, [scrollTop]);

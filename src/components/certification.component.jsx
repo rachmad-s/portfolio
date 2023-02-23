@@ -51,9 +51,9 @@ export default function Certification() {
       <div className="container">
         <div className="row">
           {certificates.map((certificate) => (
-            <div className="col-sm-6 certification-item" key={certificate.name}>
+            <div className="col-lg-6 certification-item" key={certificate.name}>
               <div
-                className="d-flex align-items-sm-center align-items-start"
+                className="d-flex align-items-lg-center align-items-start"
                 style={{ gap: '16px' }}
               >
                 <img
