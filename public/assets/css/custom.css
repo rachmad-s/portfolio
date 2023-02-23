@@ -727,6 +727,10 @@ html {
     column-width: 9em;
     overflow: visible;
   }
+  .project-layout > div {
+    position: relative;
+    z-index: 99;
+  }
   .certification-item a {
     padding: 0.25rem 2rem;
     margin-top: 0.8rem;
