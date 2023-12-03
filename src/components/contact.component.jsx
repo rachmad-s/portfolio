@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/alt-text */
-import { useRef, useEffect } from 'react';
+import React, { useRef, useEffect } from 'react';
 import { BsLinkedin, BsWhatsapp, BsInstagram } from 'react-icons/bs';
 import rect from './../assets/rect.svg';
 import profile from './../assets/profile.png';

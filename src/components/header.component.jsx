@@ -48,10 +48,13 @@ export default function Header() {
   };
 
   return (
-    <div className="main-header" style={styleTransform?.mainHeader}>
+    <div
+      className="main-header"
+      style={styleTransform && styleTransform.mainHeader}
+    >
       <MainHeaderContent
-        pictStyle={styleTransform?.picture}
-        textStyle={styleTransform?.title}
+        pictStyle={styleTransform && styleTransform.picture}
+        textStyle={styleTransform && styleTransform.title}
       />
       <div className="main-header-overlay" />
       <ShapeDivider />
